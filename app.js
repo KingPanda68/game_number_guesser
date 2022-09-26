@@ -35,7 +35,7 @@ guessBtn.addEventListener("click", function () {
   }
 
   //   check win
-  if (guess === winningNum || !isNaN(guess)) {
+  if (guess === winningNum) {
     // won
 
     gameOver(true, `${winningNum} is correct, YOU WIN!!!`);
